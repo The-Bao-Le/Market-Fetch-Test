@@ -19,10 +19,10 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -32,14 +32,43 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Check Python syntax
+        run: |
+          python -m py_compile scripts/fetch_market_snapshot.py
+
       - name: Run Friday close market snapshot
         run: |
           python scripts/fetch_market_snapshot.py
+
+      - name: Check generated output files
+        run: |
+          test -f data/friday_close_market_snapshot.csv
+          test -f data/friday_close_market_snapshot.json
+          test -f data/friday_close_5d_prices.csv
+          test -f data/friday_close_5d_prices.json
+          echo "All expected output files were generated."
+
+      - name: Show output preview
+        run: |
+          echo "Market snapshot CSV preview:"
+          head -n 10 data/friday_close_market_snapshot.csv
+          echo ""
+          echo "5D prices CSV preview:"
+          head -n 15 data/friday_close_5d_prices.csv
 
       - name: Commit updated market snapshot files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/*.csv data/*.json data/archive/*.csv
-          git diff --cached --quiet || git commit -m "Update Friday close market snapshot"
-          git push
+
+          git add data/friday_close_market_snapshot.csv
+          git add data/friday_close_market_snapshot.json
+          git add data/friday_close_5d_prices.csv
+          git add data/friday_close_5d_prices.json
+
+          if git diff --cached --quiet; then
+            echo "No market snapshot changes to commit."
+          else
+            git commit -m "Update Friday close market snapshot"
+            git push
+          fi
