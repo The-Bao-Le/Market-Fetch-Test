@@ -21,7 +21,3 @@ Thumbs.db
 
 # Logs
 *.log
-
-# Optional: ignore archived generated files for test repo
-data/archive/
-.gitignore
