@@ -1,0 +1,65 @@
+name: Test Market Snapshot Script
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/fetch_market_snapshot.py"
+      - "requirements.txt"
+      - ".github/workflows/test-market-snapshot.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-market-snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Check Python syntax
+        run: |
+          python -m py_compile scripts/fetch_market_snapshot.py
+
+      - name: Run market snapshot script
+        run: |
+          python scripts/fetch_market_snapshot.py
+
+      - name: Check generated output files
+        run: |
+          test -f data/friday_close_market_snapshot.csv
+          test -f data/friday_close_market_snapshot.json
+          test -f data/friday_close_5d_prices.csv
+          test -f data/friday_close_5d_prices.json
+          echo "All expected output files were generated."
+
+      - name: Show summary output
+        run: |
+          echo "Market snapshot CSV preview:"
+          head -n 10 data/friday_close_market_snapshot.csv
+          echo ""
+          echo "5D prices CSV preview:"
+          head -n 15 data/friday_close_5d_prices.csv
+
+      - name: Upload generated files as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: market-snapshot-test-output
+          path: |
+            data/friday_close_market_snapshot.csv
+            data/friday_close_market_snapshot.json
+            data/friday_close_5d_prices.csv
+            data/friday_close_5d_prices.json
