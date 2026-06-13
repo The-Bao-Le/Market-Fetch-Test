@@ -1,0 +1,51 @@
+name: Capture TradingView Chart
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-tradingview-chart:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
+      - name: Install Node dependencies
+        run: |
+          npm install
+
+      - name: Install Playwright browser
+        run: |
+          npx playwright install --with-deps chromium
+
+      - name: Capture TradingView chart screenshot
+        run: |
+          npm run capture:tradingview
+
+      - name: Check generated screenshot
+        run: |
+          test -f data/charts/tradingview_spx_5d.png
+          echo "TradingView chart screenshot was generated."
+
+      - name: Commit TradingView chart screenshot
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add data/charts/tradingview_spx_5d.png
+
+          if git diff --cached --quiet; then
+            echo "No chart screenshot changes to commit."
+          else
+            git commit -m "Update TradingView chart screenshot"
+            git push
+          fi

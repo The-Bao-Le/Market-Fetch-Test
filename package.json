@@ -1,0 +1,12 @@
+{
+  "name": "market-fetch-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Market data and TradingView chart capture automation test repo.",
+  "scripts": {
+    "capture:tradingview": "node scripts/capture_tradingview_chart.js"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}

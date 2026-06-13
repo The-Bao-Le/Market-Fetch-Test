@@ -21,3 +21,12 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Node dependencies
+node_modules/
+
+# Playwright local files
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
