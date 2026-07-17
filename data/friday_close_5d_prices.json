@@ -4,299 +4,299 @@
     "asset_name":"S&P 500 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":751.28,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-13",
+    "close":749.17,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"SPY",
     "asset_name":"S&P 500 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":747.71,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-14",
+    "close":751.83,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"SPY",
     "asset_name":"S&P 500 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":3,
-    "date":"2026-07-08",
-    "close":745.4,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-15",
+    "close":754.81,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"SPY",
     "asset_name":"S&P 500 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":751.71,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":750.72,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"SPY",
     "asset_name":"S&P 500 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":754.95,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":743.29,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"QQQ",
     "asset_name":"Nasdaq 100 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":722.82,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-13",
+    "close":711.74,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"QQQ",
     "asset_name":"Nasdaq 100 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":709.43,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-14",
+    "close":719.69,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"QQQ",
     "asset_name":"Nasdaq 100 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":3,
-    "date":"2026-07-08",
-    "close":711.44,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-15",
+    "close":717.74,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"QQQ",
     "asset_name":"Nasdaq 100 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":723.28,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":705.94,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"QQQ",
     "asset_name":"Nasdaq 100 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":725.51,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":695.33,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"IWM",
     "asset_name":"Russell 2000 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":298.9,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
-  },
-  {
-    "ticker":"IWM",
-    "asset_name":"Russell 2000 proxy",
-    "asset_group":"Index proxy",
-    "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":296.19,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
-  },
-  {
-    "ticker":"IWM",
-    "asset_name":"Russell 2000 proxy",
-    "asset_group":"Index proxy",
-    "sequence_in_5d_window":3,
-    "date":"2026-07-08",
+    "date":"2026-07-13",
     "close":293.48,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
+  },
+  {
+    "ticker":"IWM",
+    "asset_name":"Russell 2000 proxy",
+    "asset_group":"Index proxy",
+    "sequence_in_5d_window":2,
+    "date":"2026-07-14",
+    "close":294.51,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
+  },
+  {
+    "ticker":"IWM",
+    "asset_name":"Russell 2000 proxy",
+    "asset_group":"Index proxy",
+    "sequence_in_5d_window":3,
+    "date":"2026-07-15",
+    "close":295.77,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"IWM",
     "asset_name":"Russell 2000 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":297.24,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":295.59,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"IWM",
     "asset_name":"Russell 2000 proxy",
     "asset_group":"Index proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":295.99,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":294.04,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLK",
     "asset_name":"Technology sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":183.57,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-13",
+    "close":181.28,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLK",
     "asset_name":"Technology sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":179.18,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-14",
+    "close":183.62,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLK",
     "asset_name":"Technology sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":3,
-    "date":"2026-07-08",
-    "close":181.4,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-15",
+    "close":181.58,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLK",
     "asset_name":"Technology sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":185.35,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":177.52,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLK",
     "asset_name":"Technology sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":185.78,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":175.59,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLF",
     "asset_name":"Financials sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":56.14,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-13",
+    "close":56.07,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLF",
     "asset_name":"Financials sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":56.05,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-14",
+    "close":56.18,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLF",
     "asset_name":"Financials sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":3,
-    "date":"2026-07-08",
-    "close":54.97,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-15",
+    "close":56.56,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLF",
     "asset_name":"Financials sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":55.54,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":56.75,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLF",
     "asset_name":"Financials sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":55.71,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":56.26,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLE",
     "asset_name":"Energy sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":1,
-    "date":"2026-07-06",
-    "close":53.13,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-13",
+    "close":56.74,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLE",
     "asset_name":"Energy sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":2,
-    "date":"2026-07-07",
-    "close":54.64,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-14",
+    "close":56.95,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLE",
     "asset_name":"Energy sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":3,
-    "date":"2026-07-08",
-    "close":55.6,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-15",
+    "close":56.5,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLE",
     "asset_name":"Energy sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":4,
-    "date":"2026-07-09",
-    "close":54.82,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-16",
+    "close":57.02,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   },
   {
     "ticker":"XLE",
     "asset_name":"Energy sector proxy",
     "asset_group":"Sector proxy",
     "sequence_in_5d_window":5,
-    "date":"2026-07-10",
-    "close":55.08,
-    "run_timestamp_utc":"2026-07-10T21:28:40.440291+00:00",
-    "run_timestamp_et":"2026-07-10T17:28:40.440291-04:00"
+    "date":"2026-07-17",
+    "close":57.68,
+    "run_timestamp_utc":"2026-07-17T21:08:32.190010+00:00",
+    "run_timestamp_et":"2026-07-17T17:08:32.190010-04:00"
   }
 ]
